@@ -5,6 +5,8 @@ import 'package:flutter_app/ListController.dart';
 import 'package:flutter_app/LoginController.dart';
 import 'package:flutter_app/FocusNodeController.dart';
 import 'package:flutter_app/TabbarController.dart';
+import 'package:flutter_app/Animation_Demo1.dart';
+import 'package:flutter_app/Animation_Demo2.dart';
 
 void main() => runApp(MyApp());
 
@@ -74,6 +76,8 @@ const routerName = [
   "登录",
   "焦点",
   "tab",
+  "动画1",
+  "动画2-淡入淡出",
   "圆角 例子",
   "滑动监听 例子",
   "滑动到指定位置 例子",
@@ -116,9 +120,11 @@ Map<String, WidgetBuilder> routers = {
     return new ScaffoldRoute();
   },"widget/tab": (context) {
     return new TabbarController();
+  },"widget/Animation":(context) {
+    return new AnimationContainerDemoPage();
+  },"widget/Animation2":(context) {
+    return new AnitionDemo2();
   }
-
-
 
 
 };
