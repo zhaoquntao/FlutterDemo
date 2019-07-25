@@ -19,6 +19,11 @@ import 'package:flutter_app/RefreshDemoPage2.dart';
 import 'package:flutter_app/PositionedDemoPage.dart';
 import 'package:flutter_app/FloatingTouchDemoPage.dart';
 import 'package:flutter_app/SliverListDemoPage.dart';
+import 'package:flutter_app/CustomMultiRenderDemoPage.dart';
+import 'package:flutter_app/StickDemoPage.dart';
+import 'package:flutter_app/InputBottomDemoPage.dart';
+
+
 
 
 
@@ -116,12 +121,12 @@ const routerName = [
   // "全局字体大小 例子",
   // "富文本 例子",
   // "viewpager 例子",
-  "滑动停靠 例子",
-  "验证码输入框 例子",
+  // "滑动停靠 例子",
+  // "验证码输入框 例子",
   "自定义布局 例子",
-  "自定义布局云词图 例子",
+  // "自定义布局云词图 例子",
   "列表停靠Stick 例子",
-  "列表停靠Stick2 例子",
+  // "列表停靠Stick2 例子",
   "键盘顶起 例子",
   "Blur 例子",
   "动画3 例子",
@@ -163,7 +168,18 @@ Map<String, WidgetBuilder> routers = {
     return new PositionedDemoPage();
   },"widget/SliverListDemoPage":(context){
     return new SliverListDemoPage();
+  },"widget/CustomMultiRenderDemoPage":(context){
+    return new CustomMultiRenderDemoPage();
+  },"widget/StickDemoPage":(context){
+    return new StickDemoPage();
+  },"widget/InputBottomDemoPage":(context){
+    return new InputBottomDemoPage();
+  },"widget/StickDemoPage":(context){
+    return new StickDemoPage();
   }
+  
+  
+  
 
 
 

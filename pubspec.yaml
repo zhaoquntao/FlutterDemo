@@ -18,7 +18,7 @@ assets:
   - images/avtar.jpg
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.2 <3.0.0"
 
 
 dependencies:
